@@ -1,0 +1,12 @@
+<div class="movie-form" [formGroup]="movieForm">
+  <div class="form-field">
+    <div class="label">Movie Id</div>
+    <input type="text" class="form-control" formControlName="id" placeholder="Enter Movie Id" />
+  </div>
+  <div class="form-field">
+    <div class="label">Movie Name</div>
+    <input type="text" class="form-control" formControlName="name" placeholder="Enter Movie Name" />
+  </div>
+
+  <button class="btn" (click)="addMovie()">Add Movie</button>
+</div>

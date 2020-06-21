@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ngrx-movies-app"
+    }
+  },
+  "defaultProject": "ngrx-movies-app",
+  "cli": {
+    "analytics": false
+  }
 }
